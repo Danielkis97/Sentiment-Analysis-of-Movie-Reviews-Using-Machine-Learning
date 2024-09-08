@@ -117,7 +117,7 @@ project_directory/
   - **Solution:** Check data preprocessing steps and consider experimenting with different models or hyperparameters.
  
 ## Evaluation Results
-Detailed evaluation results, including confusion matrices and performance metrics for both small and large datasets, can be found in the [Evaluation Results](RESULTS.md).
+Detailed evaluation results, including confusion matrices and performance metrics for both small and large datasets, can be found in the [Evaluation Results](RESULTS.md)
 
 ## Development Environment
 
