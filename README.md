@@ -103,6 +103,8 @@ project_directory/
 - **latest_model.pkl:** Trained Naive Bayes model.
 - **latest_vectorizer.pkl:** Vectorizer for transforming text into numerical features.
 - **requirements.txt:** List of Python dependencies required for the project.
+- **RESULTS.md:** File containing detailed evaluation results for small and large datasets.
+
 
 ## Possible Bugs and Solutions
 
@@ -114,12 +116,11 @@ project_directory/
   - **Scenario:** Lower-than-expected accuracy or incorrect predictions.
   - **Solution:** Check data preprocessing steps and consider experimenting with different models or hyperparameters.
  
- ##  Evaluation Results
+## Evaluation Results
 Detailed evaluation results, including confusion matrices and performance metrics for both small and large datasets, can be found in the [Evaluation Results](RESULTS.md).
-
 
 ## Development Environment
 
 The code for this project was developed using PyCharm, which offers a powerful IDE for Python development.
 
-Happy Analyzing and Coding! 🚀
+Happy Testing! 🚀
