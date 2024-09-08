@@ -1,7 +1,6 @@
 ![Python](https://img.shields.io/badge/Python-v3.9-blue?logo=python)
 ![NLTK](https://img.shields.io/badge/NLTK-v3.6.2-yellow?logo=python)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-v0.24.2-orange?logo=scikit-learn)
-![License](https://img.shields.io/github/license/Danielkis97/Sentiment-Analysis-of-Movie-Reviews-Using-Machine-Learning)
 ![Issues](https://img.shields.io/github/issues/Danielkis97/Sentiment-Analysis-of-Movie-Reviews-Using-Machine-Learning)
 
 # Sentiment Analysis of Movie Reviews Using Machine Learning
@@ -11,6 +10,7 @@ This repository contains a machine learning project that performs sentiment anal
 
 ## UML Diagram
 The following diagram outlines the key steps in the machine learning pipeline:
+
 ![class_diagram](https://raw.githubusercontent.com/Danielkis97/Sentiment-Analysis-of-Movie-Reviews-Using-Machine-Learning/main/NLP%20Project%20-%20UML.png)
 
 ## Main Features
@@ -77,29 +77,21 @@ project_directory/
 
 ```
 
-5. **Train the Model (if needed): To train the model, run:**
+5. **Load the Data:** Before training the model, you need to load the dataset. Run one of the following commands depending on whether you want to train with a large or small dataset:
+
+```sh
+    python load_data_big.py  # For large dataset
+    python load_data_small.py  # For small dataset
+```
+
+6. **Train the Model: To train the model, run:**
     ```sh
-    python train_model.py
-
+     python train_model.py
    ```
-    
-6. **Predict Sentiment: To predict the sentiment of a new review, run:**
+7. **Predict Sentiment: To predict the sentiment of a new review, run:**
     ```sh
-    python predict_sentiment.py
+        python predict_sentiment.py
    ```
-
- ## Evaluation
-
-The Naive Bayes model was evaluated on a test set from the large dataset and achieved the following results:
-
-- **Accuracy:** 84.48%
-- **Precision:** 0.82 (negative), 0.87 (positive)
-- **Recall:** 0.88 (negative), 0.81 (positive)
-- **F1-Score:** 0.85 (negative), 0.84 (positive)
-
-## License
-
-This project is licensed under the MIT License.
 
 ## Directory Structure
 
@@ -121,6 +113,10 @@ This project is licensed under the MIT License.
 - **Model Performance Issues:**
   - **Scenario:** Lower-than-expected accuracy or incorrect predictions.
   - **Solution:** Check data preprocessing steps and consider experimenting with different models or hyperparameters.
+ 
+ ##  Evaluation Results
+Detailed evaluation results, including confusion matrices and performance metrics for both small and large datasets, can be found in the [Evaluation Results](RESULTS.md).
+
 
 ## Development Environment
 
